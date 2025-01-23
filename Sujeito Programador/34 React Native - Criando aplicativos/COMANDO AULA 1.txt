@@ -1,0 +1,7 @@
+​Comando para criar um novo App:​
+npx create-expo-app nomeapp​​
+
+
+Depois só acessar a pasta do seu app e o comando para rodar:
+
+npx expo start

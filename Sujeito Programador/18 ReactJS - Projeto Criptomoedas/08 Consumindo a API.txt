@@ -1,0 +1,11 @@
+​Url da api:
+https://sujeitoprogramador.com/api-cripto/?key=b4c...​
+
+
+
+> Buscar todas criptos: https://sujeitoprogramador.com/api-cripto/?key=SUA... 
+
+> Buscar detalhes de uma cripto: https://sujeitoprogramador.com/api-cripto/coin/?ke... 
+
+** Atençao mudar o local onde está SUA_CHAVE_AQUI para sua chave criada **​
+
