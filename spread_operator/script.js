@@ -1,8 +1,22 @@
-function sorteador(...numeros){
-    console.log(numeros);
+// MAP = Percorrer todo um array
 
-    const numeroGerado = Math.floor(Math.random() * numeros.length)
-    console.log("Número gerado foi: " + numeros[numeroGerado])
-}
+//let lista = ["Matheus", "José", "Maria"]
 
-sorteador(1, 4, 3, 32, 45, 67, 78, 98, 90)
+//lista.map((item, index) => {
+//    console.log(`PASSANDO: ${item} - Está na posição ${index}`)
+//})
+
+let numeros = [5, 3, 2];
+
+let total = numeros.reduce((acumulador, numero, indice, original) => {
+    console.log(`${acumulador} - total até o momento`);
+    console.log(`${numero} - valor atual`)
+    console.log(`${indice} - indice atual`)
+    console.log(`${original} - array original`)
+    console.log("=======================================")
+
+    return acumulador += numero;
+
+})
+
+console.log("TOTAL DO REDUCE: " + total)
