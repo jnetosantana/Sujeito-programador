@@ -1,17 +1,8 @@
-//let primeiros = [1, 2, 3];
+function sorteador(...numeros){
+    console.log(numeros);
 
-//let numeros = [...primeiros, 4, 5, 10];
-//console.log(numeros);
-
-let pessoa = {
-    nome: "João",
-    idade: 45,
-    cargo: "RH"
+    const numeroGerado = Math.floor(Math.random() * numeros.length)
+    console.log("Número gerado foi: " + numeros[numeroGerado])
 }
 
-let novaPessoa = {
-    ...pessoas,
-    status: "ATIVO",
-    cidade: "Campo Grande / MS"
-};
-console.log(novaPessoa)
+sorteador(1, 4, 3, 32, 45, 67, 78, 98, 90)
